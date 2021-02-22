@@ -1,0 +1,3 @@
+git remote add origin https://github.com/qwertyz15/Digital-Signal-Processing.git
+git branch -M main
+git push -u origin main

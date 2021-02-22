@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+xn=input('Enter the sequence 1: ');
+l1=length(xn);
+hn=input('Enter the sequence 2: ');
+l2=length(hn);
+m=l1+l2-1;
+z=zeros(1, m);
+z=conv(xn, hn);
+disp(z);
